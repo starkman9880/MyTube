@@ -1,0 +1,56 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Upload video page</title>
+</head>
+<body>
+	<nav>
+		<a href="./index.html">Home</a>
+		<a href="./pages/collection-1.html">USA in 4K</a>
+		<a href="./pages/collection-2.html">Animals world</a>
+		<a href="./pages/collection-3.html">Coding Tutorials</a>
+		<a href="./form.html">Upload a video</a>
+	</nav>
+	<h1>Add New Video</h1>
+	<form action="">
+		<label for="title"><strong>Video Title</strong></label><br>
+		<input id="title" name="videoTitle" type="text" size="37" placeholder="Input value">
+		<br><br><br>
+		
+		<label for="description"><strong>Description</strong></label><br>
+		<textarea id="description" name="description" rows="20" cols="30" placeholder="Text area content"></textarea>
+		<br><br><br>
+		
+		<label for="videoFile"><strong>Video Title</strong></label><br>
+		<input id="videoFile" name="videofile" type="file">
+		<br><br><br>
+		
+		<label for="selectOption"></label>
+		<select id="selectOption" name="selectOption">
+			<option value="null" disabled selected>Choose Colection</option>
+			<option value="firstOption">Option #1</option>
+			<option value="secondOption">Option #2</option>
+			<option value="thirdOption">Option #3</option>
+			<option value="fourthOption">Option #4</option>
+		</select>
+		<br><br><br>
+		
+		<input type="radio" id="public" name="valuePublicPrivate">
+		<label for="public">Public</label>
+		<input type="radio" id="private" name="valuePublicPrivate">
+		<label for="private">Private</label>
+		<br><br><br>
+		
+		<input type="submit" value="Upload Video">
+	</form>
+	<br><br><br>
+	<footer>
+		<hr>
+		&copy; Copyright
+	</footer>
+</body>
+</html>
